@@ -1,0 +1,28 @@
+.sidebar {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  top: 31px;
+  width: 90px;
+  padding-top: 30px;
+  z-index: 99;
+}
+.sidebar-icon {
+  width: 25px;
+
+}
+.sidebar-text {
+  font-size: 10px;
+}
+.sidebar-tile {
+  height: 80px;
+  width: 90px;
+}
+.sidebar-tile:hover {
+  background-color: rgb(225, 225, 225);
+}
